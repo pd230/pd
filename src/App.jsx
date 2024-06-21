@@ -10,8 +10,12 @@ function App() {
 
   function increment(){
     if(count<20){
-      count++;
-      setCount(count);
+      // count++;
+      setCount(count => count+1);
+      setCount(count =>count+1);
+      setCount(count =>count+1);
+      setCount(count =>count+1);
+      setCount(count =>count+1);
     }
   }
 
